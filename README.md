@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Adminpro
+=======
+# Clitest
+>>>>>>> 0ca6f121fa01f31c7b15e6f34c39f1a2be8acc1f
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
