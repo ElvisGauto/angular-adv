@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "adminpro",
-=======
-  "name": "clitest",
->>>>>>> 0ca6f121fa01f31c7b15e6f34c39f1a2be8acc1f
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
