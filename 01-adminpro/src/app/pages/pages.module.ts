@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
@@ -8,6 +10,7 @@ import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 
 import { PagesRoutingModule } from './pages-routing.module';
+import { ComponentsModule } from '../components/components.module';
 
 const COMPONENTS = [
   NopagefoundComponent,
@@ -24,7 +27,9 @@ const COMPONENTS = [
   imports: [
     CommonModule,
     SharedModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FormsModule,
+    ComponentsModule,
   ],
   exports: [
     COMPONENTS

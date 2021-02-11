@@ -1,0 +1,32 @@
+<div class="input-group">
+    <span class="input-group-btn">
+        <button 
+        class="btn"
+        [ngClass]="{
+            'btn-primary': typeProgress === 'progress1',
+            'btn-danger': typeProgress === 'progress2'
+        }"
+        type="button" 
+        (click)="progressPercent(-5)">
+            <i class="fa fa-minus"></i>
+        </button>
+    </span>
+    <input type="number"
+           class="form-control"
+           [ngClass]="{'is-invalid': progress >= 100 || progress <= 0 }"
+           placeholder="Progreso"
+           (ngModelChange)="onChange($event)"
+           [(ngModel)]="progress">
+
+    <span class="input-group-btn">
+        <button
+        class="btn"
+        [ngClass]="{
+            'btn-primary': typeProgress === 'progress1',
+            'btn-danger': typeProgress === 'progress2'
+        }"
+        type="button" (click)="progressPercent(+5)">
+            <i class="fa fa-plus"></i>
+        </button>
+    </span>
+</div>
