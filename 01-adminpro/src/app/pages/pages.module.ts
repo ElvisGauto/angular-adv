@@ -11,18 +11,20 @@ import { SharedModule } from '../shared/shared.module';
 
 import { PagesRoutingModule } from './pages-routing.module';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 const COMPONENTS = [
   NopagefoundComponent,
   DashboardComponent,
   ProgressComponent,
   Grafica1Component,
-  PagesComponent
+  PagesComponent,
+  AccountSettingsComponent
 ]
 
 @NgModule({
   declarations: [
-    COMPONENTS
+    COMPONENTS,
   ],
   imports: [
     CommonModule,
