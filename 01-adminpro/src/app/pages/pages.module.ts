@@ -12,6 +12,8 @@ import { SharedModule } from '../shared/shared.module';
 import { PagesRoutingModule } from './pages-routing.module';
 import { ComponentsModule } from '../components/components.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 const COMPONENTS = [
   NopagefoundComponent,
@@ -19,7 +21,9 @@ const COMPONENTS = [
   ProgressComponent,
   Grafica1Component,
   PagesComponent,
-  AccountSettingsComponent
+  PromisesComponent,
+  AccountSettingsComponent,
+  RxjsComponent,
 ]
 
 @NgModule({

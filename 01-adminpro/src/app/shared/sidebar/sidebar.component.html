@@ -15,6 +15,8 @@
                         <li><a routerLink="progress">Progress</a></li>
                         <li><a routerLink="grafica1">Grafica 1</a></li>
                         <li><a routerLink="account-settings">Account Setting</a></li>
+                        <li><a routerLink="promises">Promises</a></li>
+                        <li><a routerLink="rxjs">Rxjs</a></li>
                         <li><a routerLink="/login">Logout</a></li>
                     </ul>
                 </li>
@@ -29,7 +31,9 @@
                     </a>
                     <ul aria-expanded="false" class="collapse">
                         <li *ngFor="let subItem of item.submenu">
-                            <a routerLink="{{ subItem.url }}">{{ subItem.title }}</a>
+                            <a routerLink="{{ subItem.url }}"
+                            routerLinkActive="active"
+                            [routerLinkActiveOptions]="{ exact: true }">{{ subItem.title }}</a>
                         </li>
                     </ul>
                 </li>
