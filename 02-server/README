@@ -1,0 +1,15 @@
+## Libraries
+### crear el servidor express
+npm i express --save
+
+npm i -g nodemon
+        nodemon index.js
+
+### Sirve para conectarse a la base de datos
+npm i mongoose
+
+### Sirve para crear variables de entorno. En la carpeta src creamos un archivo llamado .env
+npm i dotenv
+
+###  Sirve para hacer peticiones de distintos dominios
+npm i cors
