@@ -1,3 +1,5 @@
+# DOCUMENTACION DE PAQUETES
+
 ## Libraries
 ### crear el servidor express
 npm i express --save
@@ -11,5 +13,14 @@ npm i mongoose
 ### Sirve para crear variables de entorno. En la carpeta src creamos un archivo llamado .env
 npm i dotenv
 
-###  Sirve para hacer peticiones de distintos dominios
+###  Sirve para hacer peticiones desde distintos dominios
 npm i cors
+
+### Sirve para hacer validaciones en el  envio de datos
+ npm i express-validator
+
+### Nos ayuda a encriptar las contraseñas
+npm i bcryptjs
+
+### Paquete para la creacion de Tokens
+npm i jsonwebtoken
