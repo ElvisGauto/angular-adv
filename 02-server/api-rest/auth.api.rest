@@ -1,0 +1,10 @@
+// AUTH API REST
+
+###
+POST http://localhost:4000/api/login
+Content-Type: application/json
+
+{
+    "email": "elvis19@gmail.com",
+    "password": "321654"
+}

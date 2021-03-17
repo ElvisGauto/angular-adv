@@ -25,9 +25,6 @@ const SchemaUser = Schema({
     google:{
         type: Boolean,
         default: false
-    },
-    token: {
-        type: String
     }
 });
 

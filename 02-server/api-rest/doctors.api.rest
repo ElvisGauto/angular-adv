@@ -1,0 +1,28 @@
+###
+POST http://localhost:4000/api/doctors
+Content-Type: application/json
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MDM1NDc4OGVmYzIzMjA3ODBkZDEwMWYiLCJpYXQiOjE2MTQzNjU2ODksImV4cCI6MTYxNDQwODg4OX0.Oh8hHmo68XxZxY0B6llPq9kj2UQQSU6lKrQKRgo2BqQ
+
+{   
+    "name":"Dra Jorgeza  Palaveccino",
+    "hospital": "60395aa49fb2038b0808c5c"
+}
+
+###
+GET http://localhost:4000/api/doctors
+
+###
+PUT http://localhost:4000/api/doctors/60354788efc2320780dd101f
+# Content-Type: application/json
+# x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MDM1NDc4OGVmYzIzMjA3ODBkZDEwMWYiLCJpYXQiOjE2MTQxMTEyMTcsImV4cCI6MTYxNDE1NDQxN30.dzmT7dpqQRJ91IjOByNbA5x5KdP18ZXwnD8QR8tegCg
+
+# {
+#     "name":"Mauro",
+#     "password": "321654",
+#     "google": "true",
+#     "email": "elvis19@gmail.com",
+#     "role": "admin"
+# }
+###
+DELETE http://localhost:4000/api/doctors/6035592d7dc52238f8cf8143
+# x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MDM1NDc4OGVmYzIzMjA3ODBkZDEwMWYiLCJpYXQiOjE2MTQxMTEyMTcsImV4cCI6MTYxNDE1NDQxN30.dzmT7dpqQRJ91IjOByNbA5x5KdP18ZXwnD8QR8tegCg

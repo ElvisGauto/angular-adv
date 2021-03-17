@@ -2,8 +2,15 @@
     Ruta: /api/users
 */
 const { Router } = require('express');
+
+const { 
+    getUsers, 
+    createUser, 
+    updateUser, 
+    deleteUser 
+} =  require('../controllers/users.controller');
+
 const { check } = require('express-validator');
-const { getUsers, createUser, updateUser, deleteUser } =  require('../controllers/users.controller');
 const { fieldsValidator } = require('../middlewares/fields-validator');
 const { JWTValidator } = require('../middlewares/jwt-validation');
 

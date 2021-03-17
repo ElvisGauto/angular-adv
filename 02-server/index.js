@@ -20,7 +20,10 @@ dbConnection();
 
 // rutas
 app.use('/api/users', require('./routes/users.route'));
+app.use('/api/hospital', require('./routes/hospital.route'));
 app.use('/api/login', require('./routes/auth.route'));
+app.use('/api/doctors', require('./routes/doctors.route'));
+app.use('/api/all', require('./routes/total-search.route'));
 
 
 app.listen( process.env.PORT, () => {
